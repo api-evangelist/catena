@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@catena/cli
+name: Catena CLI
+binary: catena
+package: "@catena/cli"
+version: 0.2.0
+description: First-party command-line interface for Catena agent runtimes.
+install:
+  - method: npm
+    command: npm install -g @catena/cli
+framework: citty
+notes: |
+  Confirmed first-party (npm homepage https://catena.com/, maintainer venables = Catena
+  CTO). The published package ships the `catena` binary but does not include a README, and
+  Catena's product docs are gated behind Private Access, so the grouped command/resource
+  surface is not yet publicly documented. The binary and install method are recorded here
+  verbatim; commands are intentionally left uncatalogued rather than fabricated.
+commands: []

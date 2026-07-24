@@ -1,0 +1,9 @@
+# security.txt — RFC 9116
+# Report security issues affecting catena.com and our public infrastructure
+# to the contact below. We respond on a best-effort basis; please give us
+# reasonable time to investigate before public disclosure.
+
+Contact: mailto:security@catena.com
+Expires: 2027-05-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://catena.com/.well-known/security.txt

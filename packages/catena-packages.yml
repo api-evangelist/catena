@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/
+packages:
+  - language: javascript
+    registry: npm
+    name: "@catena/cli"
+    url: https://www.npmjs.com/package/@catena/cli
+    install: npm install -g @catena/cli
+    version: 0.2.0
+    bin: catena
+    description: Catena CLI for agent runtimes.
+    official: true
+    evidence: "npm homepage is https://catena.com/; maintained by venables (Matt Venables, Catena CTO)"
+  - language: typescript
+    registry: npm
+    name: agentcommercekit
+    url: https://www.npmjs.com/package/agentcommercekit
+    install: npm install agentcommercekit
+    version: 0.10.1
+    repository: https://github.com/agentcommercekit/ack
+    description: >-
+      Agent Commerce Kit (ACK) - vendor-neutral protocols, patterns, and open-source
+      components that let AI agents participate in commerce. Open-sourced by Catena Labs.
+    license: MIT
+    official: true
+    evidence: "published/maintained by venables (Matt Venables, Catena Labs CTO); ACK announced on the Catena blog"
+notes: |
+  Catena's core banking/governance API is in Private Access, so no first-party server
+  SDK (Python/Go/etc.) is published to a public registry yet. The two public first-party
+  packages are the Catena CLI and the Catena-Labs Agent Commerce Kit. Registries probed
+  with no first-party hit: PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist,
+  crates.io.

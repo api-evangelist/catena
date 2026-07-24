@@ -1,0 +1,31 @@
+# Catena
+
+> Catena is building the regulated banking and governance platform for AI agents. The product gives agents verified identities, custodial and non-custodial accounts, fiat and stablecoin payment rails across ten chains, yield, and policy-enforced spending controls. For the humans and businesses deploying those agents, Catena is a control plane: set policy, cap spending, restrict counterparties, audit every movement, and halt activity when needed. Catena has filed for a National Trust Bank charter with the OCC and has raised $48M total ($30M Series A co-led by a16z crypto and Acrew).
+
+## Core pages
+
+- [Home](https://catena.com/): Overview of the banking and governance platform for AI agents.
+- [About](https://catena.com/about): Team, mission, investors, regulatory posture, open positions.
+- [Blog](https://catena.com/blog): Long-form writing on agentic commerce, agent identity, stablecoins, and regulation.
+- [Press](https://catena.com/press): Recent media coverage, podcasts, and analyst mentions.
+- [Privacy Policy](https://catena.com/legal/privacy): How Catena handles personal data.
+- [Terms of Service](https://catena.com/legal/tos): Terms governing use of catena.com.
+
+## Featured writing
+
+- [Catena Supports Mastercard Agent Pay for Machines](https://catena.com/blog/catena-supports-mastercard-agent-pay-for-machines): Catena is among the initial participants in Mastercard's new service for permissioned, machine-speed agent payments.
+- [Our Banking and Governance Platform for AI Agents is Open](https://catena.com/blog/banking-governance-platform-for-ai-agents-open): Announcement of Private Access, the OCC charter application, and the $48M total financing.
+- [Agent Commerce Kit](https://catena.com/blog/agent-commerce-kit): Open-source toolkit for building agent payments.
+- [Agent Commerce Standards](https://catena.com/blog/agent-commerce-standards): Why the agent economy needs shared standards for identity, payment, and policy.
+- [The Critical Need for Verifiable AI Agent Identity](https://catena.com/blog/the-critical-need-for-verifiable-ai-agent-idenity): Identity is the prerequisite for accountable agent activity.
+- [Why Stablecoins Are the Perfect Money for AI Agents](https://catena.com/blog/why-stablecoins-are-the-perfect-money-for-ai-agents): The properties of stablecoins that make them the right rails for agents.
+- [Beyond Automation: Why AI Agents Need Their Own Money](https://catena.com/blog/beyond-automation-why-ai-agents-need-their-own-money): The shift from automation to autonomous economic actors.
+- [The A-Commerce Stack: Building the Financial Capabilities for AI Agents](https://catena.com/blog/the-a-commerce-stack-building-the-financial-capabilities-for-ai-agents): The full stack from identity to settlement.
+- [Catena Partners with Circle to Support Arc](https://catena.com/blog/catena-partners-with-circle-to-support-arc-built-for-agentic-finance-and-commerce): Circle's Arc and what it means for agentic finance.
+- [Google's Agent Payment Protocol (AP2)](https://catena.com/blog/google-agent-payment-protocol-ap2): What AP2 standardizes and where it fits in the stack.
+- [What Agents Need Before They Handle Real Money](https://catena.com/blog/what-agents-need-before-they-handle-real-money): The minimum bar for agent financial autonomy.
+
+## Reference
+
+- [llms-full.txt](https://catena.com/llms-full.txt): Full markdown content of every public Catena blog post, concatenated for retrieval.
+- [Sitemap](https://catena.com/sitemap-index.xml): All indexable URLs.

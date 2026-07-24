@@ -1,8 +1,17 @@
 aid: catena
 name: Catena
-description: 'Catena is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: banking. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Catena (Catena Labs) is building a regulated banking and governance platform for AI
+  agents. The platform gives agents verified identities, custodial and non-custodial
+  accounts, fiat and stablecoin payment rails across ten chains, yield on idle assets,
+  and policy-enforced spending controls. For the humans and businesses deploying those
+  agents it is a control plane: set policy, cap spending, restrict counterparties, audit
+  every movement, and halt activity when needed. Agents access the platform through an
+  API, a CLI, an MCP server, and a Skills framework. Founded by Sean Neville (CEO) and
+  Matt Venables (CTO) - both Circle co-founders and creators of USDC - Catena has filed
+  for a National Trust Bank charter with the OCC and raised $48M total ($30M Series A
+  co-led by a16z crypto and Acrew, with QED, Coinbase Ventures, General Catalyst, Breyer
+  Capital, IDG Capital, Oak HC/FT, and Pillar).
 url: https://raw.githubusercontent.com/api-evangelist/catena/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +19,89 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://catena.com/images/og/pages/home.png
 tags:
 - Company
 - Banking
-apis: []
+- Agentic Finance
+- AI Agents
+- Payments
+- Stablecoins
+- Governance
+- Fintech
+apis:
+- name: Catena API
+  description: >-
+    Catena's banking and governance API for AI agents - agent identity, custodial and
+    non-custodial accounts, fiat and stablecoin payments, yield, and policy-enforced
+    spending controls. Currently in Private Access.
+  humanURL: https://catena.com/
+  baseURL: https://api.catena.com
+  tags:
+  - Banking
+  - Payments
+  - Agentic Finance
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/catena-vulnerability-disclosure.yml
+- type: Security
+  url: https://catena.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/catena-domain-security.yml
 - type: Website
   url: https://catena.com/
+- type: About
+  url: https://catena.com/about
+- type: Blog
+  url: https://catena.com/blog
+- type: SignUp
+  url: https://app.catena.com
+- type: Login
+  url: https://app.catena.com
+- type: TermsOfService
+  url: https://catena.com/legal/tos
+- type: PrivacyPolicy
+  url: https://catena.com/legal/privacy
+- type: GitHubOrganization
+  url: https://github.com/catena-labs
+- type: Support
+  url: mailto:hello@catena.com
+- type: LLMsTxt
+  url: llms/catena-llms.txt
+- type: WellKnown
+  url: well-known/catena-well-known.yml
+- type: SecurityTxt
+  url: well-known/catena-security.txt
+- type: Packages
+  url: packages/catena-packages.yml
+- type: SDKs
+  url: packages/catena-packages.yml
+- type: CLI
+  url: cli/catena-cli.yml
+- type: MCPServer
+  url: mcp/catena-mcp.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
