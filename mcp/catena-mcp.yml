@@ -1,6 +1,7 @@
 generated: '2026-07-18'
 method: searched
-status: private-access
+status: gated
+status_raw: private-access
 source: https://catena.com/
 server:
   name: catena
