@@ -6,14 +6,27 @@ source: https://catena.com/
 server:
   name: catena
   advertised: true
-  url: null          # not publicly published; access is gated behind Private Access
+  url: null
 tools: []
-notes: |
-  Catena advertises an MCP server as one of the ways agents access the platform (the
+notes: 'Catena advertises an MCP server as one of the ways agents access the platform (the
+
   homepage lists "MCP Server" alongside API, CLI, and Skills as developer access surfaces,
+
   and the product is positioned as banking + governance infrastructure for AI agents).
+
   The concrete server endpoint and tool manifest are not published publicly — the platform
+
   is in Private Access — and there is no public OpenAPI to derive a candidate tool list
+
   from, so no tools are enumerated here (recording the advertised capability without
+
   fabricating tool names). Upgrade to status: published with a real url + tools[] once the
+
   server manifest is public.
+
+  '
+deployment:
+  mode: unclear
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
