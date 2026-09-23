@@ -2,18 +2,27 @@ generated: '2026-07-18'
 method: searched
 source: https://catena.com/.well-known/
 host: https://catena.com
-documents:
-  - path: /.well-known/security.txt          # RFC 9116
+notes: 'api.catena.com also serves /.well-known/security.txt (200) but returns an empty
+
+  body; the canonical, populated document is at catena.com and is the one saved.
+
+  '
+hosts:
+- host: https://catena.com
+  documents:
+  - path: /.well-known/security.txt
     status: 200
     file: catena-security.txt
-  - path: /.well-known/openid-configuration   # OIDC discovery
+  - path: /.well-known/openid-configuration
     status: 404
-  - path: /.well-known/oauth-authorization-server  # RFC 8414
+  - path: /.well-known/oauth-authorization-server
     status: 404
-  - path: /.well-known/api-catalog            # RFC 9727
+  - path: /.well-known/api-catalog
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-notes: |
-  api.catena.com also serves /.well-known/security.txt (200) but returns an empty
-  body; the canonical, populated document is at catena.com and is the one saved.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
