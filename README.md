@@ -64,6 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Catena is a company surfaced as a portfolio company of qed-investors and added to the API Evangelist network as a stub for enrichment. Sector: banking. This profile is a lead awaiting the enrichment pipeline.
+Catena (Catena Labs) is building a regulated banking and governance platform for AI agents. The platform gives agents verified identities, custodial and non-custodial accounts, fiat and stablecoin payment rails across ten chains, yield on idle assets, and policy-enforced spending controls. For the humans and businesses deploying those agents it is a control plane: set policy, cap spending, restrict counterparties, audit every movement, and halt activity when needed. Agents access the platform through an API, a CLI, an MCP server, and a Skills framework. Founded by Sean Neville (CEO) and Matt Venables (CTO) - both Circle co-founders and creators of USDC - Catena has filed for a National Trust Bank charter with the OCC and raised $48M total ($30M Series A co-led by a16z crypto and Acrew, with QED, Coinbase Ventures, General Catalyst, Breyer Capital, IDG Capital, Oak HC/FT, and Pillar).
 
-Backed by: qed-investors — https://catena.com/
+**Areas:** Company · Banking · Agentic Finance · AI Agents · Payments · Stablecoins · Governance · Fintech
+
+## Catena on APIs.io
+
+Everything profiled for Catena is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/catena/](https://apis.io/providers/catena/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Catena API](https://apis.io/apis/catena/catena-api/) — Catena's banking and governance API for AI agents - agent identity, custodial and non-custodial accounts, fiat and stablecoin payments, yield, and…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [catena](https://apis.io/servers/catena/catena/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Catena Domain Security](https://apis.io/security/catena/catena-domain-security/)
+- [Catena Vulnerability Disclosure](https://apis.io/security/catena/catena-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://catena.com/)
+- [Sign up](https://app.catena.com)
+- [Blog](https://catena.com/blog)
+- [Security](https://catena.com/.well-known/security.txt)
+- [Terms of service](https://catena.com/legal/tos)
+- [Privacy policy](https://catena.com/legal/privacy)
+- [GitHub](https://github.com/catena-labs)
+
+## API Evangelist rating
+
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/catena/](https://apis.io/providers/catena/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Catena: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/catena/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
